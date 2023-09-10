@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmillionaire=self.webpackChunkmillionaire||[]).push([[674],{5674:function(e,i,s){e.exports=s.p+"static/media/menu.c3df47390e4d8f965125.svg"}}]);
