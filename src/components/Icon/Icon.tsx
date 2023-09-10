@@ -1,5 +1,4 @@
 import React, { useState, useEffect, ReactElement } from 'react';
-import { getIconUrl } from './utils';
 import type { Nullable } from '../../types';
 
 type Props = {
@@ -16,7 +15,7 @@ function Icon({
   const [svgIcon, setSvgIcon] = useState<Nullable<string>>(null);
 
   useEffect(() => {
-    import(getIconUrl(name))
+    import(`../../assets/icons/${name}.svg`)
       .then((module) => {
         const { default: svg } = module;
         setSvgIcon(svg);
