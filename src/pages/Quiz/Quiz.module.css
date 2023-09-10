@@ -2,6 +2,13 @@
   background: var(--black-5);
 }
 
+.loader {
+  height: 100dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .component {
   height: 100%;
   display: flex;

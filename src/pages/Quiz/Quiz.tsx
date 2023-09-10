@@ -20,7 +20,7 @@ function Quiz(): ReactElement {
     currentQuestion, rounds, answers, selectAnswer,
   } = useQuizManager();
 
-  if (isLoading || !currentQuestion) return <Loader />;
+  if (isLoading || !currentQuestion) return <Loader className={styles.loader} />;
   if (isError) return <Navigate to={ROUTE.SERVER_ERROR} />;
 
   return (
