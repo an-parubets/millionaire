@@ -1,0 +1,114 @@
+.component {
+  --inactive-color: var(--black-40);
+  --hovered-color: var(--orange-100);
+  --selected-color: var(--orange-100);
+  --correct-color: var(--green-100);
+  --wrong-color: var(--red-100);
+
+  --inactive-icon: url('./assets/inactive.svg');
+  --hovered-icon: url('./assets/hover.svg');
+  --selected-icon: url('./assets/selected.svg');
+  --correct-icon: url('./assets/correct.svg');
+  --wrong-icon: url('./assets/wrong.svg');
+
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.component::after {
+  content: '';
+  height: 1px;
+  width: 100%;
+  position: absolute;
+  z-index: 0;
+}
+
+.inactive.component::after {
+  background: var(--inactive-color);
+}
+
+.selected.component::after {
+  background: var(--selected-color);
+}
+
+.correct.component::after {
+  background: var(--correct-color);
+}
+
+.wrong.component::after {
+  background: var(--wrong-color);
+}
+
+.button {
+  background-color: transparent;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  border: 0;
+  height: 56px;
+  width: 100%;
+  max-width: 288px;
+  padding: 0 32px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+}
+
+@media (hover) {
+  .inactive.component:hover::after {
+    background: var(--hovered-color);
+  }
+
+  .inactive.component:hover .button {
+    background-image: var(--hovered-icon);
+  }
+}
+
+.inactive .button {
+  background-image: var(--inactive-icon);
+}
+
+.selected .button {
+  background-image: var(--selected-icon);
+}
+
+.correct .button {
+  background-image: var(--correct-icon);
+}
+
+.wrong .button {
+  background-image: var(--wrong-icon);
+}
+
+@media (min-width: 1024px) {
+  .component {
+    --inactive-icon: url('./assets/inactive-desktop.svg');
+    --selected-icon: url('./assets/selected-desktop.svg');
+    --correct-icon: url('./assets/correct-desktop.svg');
+    --wrong-icon: url('./assets/wrong-desktop.svg');
+  }
+
+  .button {
+    height: 72px;
+    max-width: 373px;
+  }
+}
+
+.text {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: 100%;
+}
+
+.index {
+  color: var(--orange-100);
+  margin-right: 8px;
+}

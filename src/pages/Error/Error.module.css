@@ -1,0 +1,8 @@
+.description {
+  display: flex;
+  flex-direction: column;
+}
+
+.status {
+  opacity: 0.5;
+}

@@ -1,0 +1,24 @@
+.layout {
+  background: var(--black-5);
+}
+
+.score {
+  opacity: 0.5;
+}
+
+.title {
+  display: flex;
+  text-align: center;
+}
+
+.result {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 1024px) {
+  .result {
+    align-items: flex-start;
+  }
+}

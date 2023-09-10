@@ -1,0 +1,7 @@
+.layout {
+  background-image: linear-gradient(
+    to bottom right,
+    var(--white-100) 50%,
+    var(--orange-5) 50%
+  );
+}

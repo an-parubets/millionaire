@@ -1,0 +1,22 @@
+.component {
+  flex-direction: column;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  max-width: 842px;
+  gap: 8px;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.item {
+  position: relative;
+}
+
+@media (min-width: 1024px) {
+  .component {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 0;
+  }
+}

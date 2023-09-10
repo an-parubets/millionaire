@@ -1,0 +1,264 @@
+[
+  {
+    "id": "q1",
+    "title": "What is the capital of France?",
+    "answers": [
+      {
+        "id": "a1",
+        "title": "London"
+      },
+      {
+        "id": "a2",
+        "title": "Berlin"
+      },
+      {
+        "id": "a3",
+        "title": "Paris"
+      },
+      {
+        "id": "a4",
+        "title": "Madrid"
+      }
+    ],
+    "countCorrectAnswers": 1,
+    "prize": {
+      "amount": 500,
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "q2",
+    "title": "Which planet is known as the Red Planet?",
+    "answers": [
+      {
+        "id": "a5",
+        "title": "Mars"
+      },
+      {
+        "id": "a6",
+        "title": "Venus"
+      },
+      {
+        "id": "a7",
+        "title": "Earth"
+      },
+      {
+        "id": "a8",
+        "title": "Jupiter"
+      }
+    ],
+    "countCorrectAnswers": 1,
+    "prize": {
+      "amount": 1000,
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "q3",
+    "title": "Which gas do plants absorb from the atmosphere?",
+    "answers": [
+      {
+        "id": "a9",
+        "title": "Oxygen"
+      },
+      {
+        "id": "a10",
+        "title": "Carbon Dioxide"
+      },
+      {
+        "id": "a11",
+        "title": "Nitrogen"
+      },
+      {
+        "id": "a12",
+        "title": "Hydrogen"
+      }
+    ],
+    "countCorrectAnswers": 1,
+    "prize": {
+      "amount": 2000,
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "q4",
+    "title": "What is the largest mammal in the world?",
+    "answers": [
+      {
+        "id": "a13",
+        "title": "Elephant"
+      },
+      {
+        "id": "a14",
+        "title": "Blue Whale"
+      },
+      {
+        "id": "a15",
+        "title": "Giraffe"
+      },
+      {
+        "id": "a16",
+        "title": "Hippopotamus"
+      }
+    ],
+    "countCorrectAnswers": 1,
+    "prize": {
+      "amount": 5000,
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "q5",
+    "title": "Which year did the Titanic sink?",
+    "answers": [
+      {
+        "id": "a17",
+        "title": "1907"
+      },
+      {
+        "id": "a18",
+        "title": "1912"
+      },
+      {
+        "id": "a19",
+        "title": "1920"
+      },
+      {
+        "id": "a20",
+        "title": "1931"
+      }
+    ],
+    "countCorrectAnswers": 1,
+    "prize": {
+      "amount": 10000,
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "q6",
+    "title": "Which colors are in the French flag?",
+    "answers": [
+      {
+        "id": "a21",
+        "title": "Red"
+      },
+      {
+        "id": "a22",
+        "title": "White"
+      },
+      {
+        "id": "a23",
+        "title": "Blue"
+      },
+      {
+        "id": "a24",
+        "title": "Orange"
+      }
+    ],
+    "countCorrectAnswers": 3,
+    "prize": {
+      "amount": 50000,
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "q7",
+    "title": "Name three primary colors.",
+    "answers": [
+      {
+        "id": "a24",
+        "title": "Red"
+      },
+      {
+        "id": "a25",
+        "title": "Blue"
+      },
+      {
+        "id": "a26",
+        "title": "Yellow"
+      },
+      {
+        "id": "a27",
+        "title": "Green"
+      }
+    ],
+    "countCorrectAnswers": 3,
+    "prize": {
+      "amount": 100000,
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "q8",
+    "title": "Which continents are entirely located in the Southern Hemisphere?",
+    "answers": [
+      {
+        "id": "a28",
+        "title": "Antarctica"
+      },
+      {
+        "id": "a29",
+        "title": "Australia"
+      }
+    ],
+    "countCorrectAnswers": 2,
+    "prize": {
+      "amount": 250000,
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "q9",
+    "title": "What is the largest organ in the human body?",
+    "answers": [
+      {
+        "id": "a30",
+        "title": "Heart"
+      },
+      {
+        "id": "a31",
+        "title": "Brain"
+      },
+      {
+        "id": "a32",
+        "title": "Liver"
+      },
+      {
+        "id": "a33",
+        "title": "Skin"
+      }
+    ],
+    "countCorrectAnswers": 1,
+    "prize": {
+      "amount": 500000,
+      "currency": "USD"
+    }
+  },
+  {
+    "id": "q10",
+    "title": "Which programming language is often used for building web applications?",
+    "answers": [
+      {
+        "id": "a34",
+        "title": "Python"
+      },
+      {
+        "id": "a35",
+        "title": "JavaScript"
+      },
+      {
+        "id": "a36",
+        "title": "C++"
+      },
+      {
+        "id": "a37",
+        "title": "Java"
+      }
+    ],
+    "countCorrectAnswers": 1,
+    "prize": {
+      "amount": 1000000,
+      "currency": "USD"
+    }
+  }
+]
