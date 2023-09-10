@@ -18,3 +18,5 @@ export const convertIndexToAlpha = (index: number): string => {
 export const delay = (timeout: number): Promise<void> => new Promise((resolve) => {
   setTimeout(resolve, timeout);
 });
+
+export const isDevelopmentMode = (): boolean => process.env.NODE_ENV === 'development';
